@@ -25,12 +25,6 @@ const quizQuestion = [
   },
 ]
 
-const highestscore = [
-  {
-    name: 'Rushikesh',
-    score: '8'
-  }
-]
 
 let userScore = 0;
 
@@ -54,6 +48,5 @@ for(var i = 0; i < quizQuestion.length; i++) {
 console.log("-------------------------------------");
 console.log(`Your total score is : ${userScore}`);
 console.log("-------------------------------------");
-console.log(highestscore)
 }
 
